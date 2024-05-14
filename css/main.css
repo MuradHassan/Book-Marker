@@ -1,0 +1,19 @@
+li {
+    background: rgb(226, 227, 229);
+    background: linear-gradient(0deg, rgba(226, 227, 229, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: larger;
+    }
+    .form-control{
+        
+        width: 90% !important;
+    }
+    .dataList{
+        overflow-x: scroll;
+    }
+    
+}
